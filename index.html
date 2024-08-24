@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Versão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1 id="titulo-header">Gerenciamento de Configuração de Software</h1>
+            <p id="subtitulo-header">Controle de Versão</p>
+            <nav id="navbar">
+                <a href="controle-mudancas.html" class="active">Controle de Mudanças</a>
+                <a href="integracao-continua.html" class="active">Integração Contínua</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="main">
+            <h1>O que é?</h1>
+                <p class="paragrafo">O "Controle de Versão é um sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo para que seja possível recuperá-lo mais tarde. Um Sistema de Controle de Versão é uma ferramenta muito importante de ser usada, já que permite que você reverta determinados arquivos à uma versão anterior desejada, ou até mesmo o projeto inteiro, assim como comparar as mudanças realizadas ao longo do tempo de vida dos arquivos ou projeto. Também é possível ver qual pessoa fez determinada modificação que possa ter causado problema no projeto e quando. Usar este tipo de sistema ajuda a ter maior segurança dentro do projeto, já que mudanças críticas podem ser facilmemte revertidas.</p>
+            <h1>Sistemas de Controle de Versão Local</h1>
+                <p class="paragrafo">Esse tipo de sistema de controle mantém possuem um simples banco de dados que mantém todas as alterações nos arquivos sob controle e revisão.</p>
+                <p class="paragrafo">Uma das ferramentas mais famosas é um sistema chamado "RCS" que ainda hoje é distribuido com muitos computadores. Essa ferramenta funciona mantendo conjunto de "patches" (diferenças entre arquivos) em um formato especial no disco, assim podendo recriar a aparência de qualquer arquivo em qualquer período do tempo, juntando todos os patches.</p>
+            <h1>Sistemas de Controle de Versão Centralizado</h1>
+                <p>Esse tipo de sistema foi desenvolvido para solucionar o problema das pessoas precisarem colaborar com desenvolvedores em outros sistemas. Como solução, esses sitemas têm um único servidor que contém todos os arquivos versionados e vários clientes que fazem check-outs dos arquivos daquele local central. Essa configuração oferece muitas vantagens sobre os sistemas locais, já que todos sabem até certo ponto o que todos os outros estão fazendo no projeto, além de que os administradores tem acesso refinado ao controle de quem pode fazer o que, isso é mais fácil do que lidar com bancos de dados locais em cada cliente.</p>
+            <h1>Sistemas de Controle de Versão Distribuídos</h1>
+                <p>Nesse tipo de sistemas os clientes não apenas verificam o snapshot mais recente, mas também espelham completamente o repositório, incluindo seu histórico completo. Isso é importante, pois caso algum servidor "morra" e esses sistemas estavam tendo colaboração por meio desse servidor, qualquer um dos repositórios do cliente podem ser copiados de volta ao servidor.</p>
+        </div>
+    </main>
+</body>
+</html>
